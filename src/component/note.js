@@ -11,11 +11,7 @@ function add(create){
 }
 
 function Note(){
-    return(
-        <div>
-            {AddNotes.map(add)}   
-        </div>
-    )
+    return(<div>{AddNotes.map(add)}</div> )
 }
 
 
